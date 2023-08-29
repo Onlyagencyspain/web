@@ -1,0 +1,101 @@
+.elementor-kit-5 {
+	--e-global-color-primary: #0e0d0d;
+	--e-global-color-secondary: #FFFFFF;
+	--e-global-color-text: #22334D;
+	--e-global-color-accent: #1B252F;
+	--e-global-color-8693664: #d4af37;
+	--e-global-color-c176799: #F2F2F2;
+	--e-global-typography-primary-font-family: "Poppins";
+	--e-global-typography-primary-font-size: 40px;
+	--e-global-typography-primary-font-weight: 600;
+	--e-global-typography-secondary-font-family: "Roboto Slab";
+	--e-global-typography-secondary-font-weight: 400;
+	--e-global-typography-text-font-family: "Poppins";
+	--e-global-typography-text-font-size: 16px;
+	--e-global-typography-text-font-weight: 300;
+	--e-global-typography-accent-font-family: "Roboto";
+	--e-global-typography-accent-font-weight: 500;
+	--e-global-typography-5c12bfe-font-family: "My Font";
+	color: var(--e-global-color-text);
+	font-family: "Poppins", Sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.elementor-kit-5 h1 {
+	font-family: "Poppins", Sans-serif;
+	font-size: 45px;
+}
+
+.elementor-kit-5 h2 {
+	font-family: "Poppins", Sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.elementor-kit-5 h3 {
+	font-family: "Poppins", Sans-serif;
+	font-size: 20px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+	max-width: 1140px;
+}
+
+.e-con {
+	--container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.elementor-element {
+	--widgets-spacing: 20px;
+}
+
+	{}
+
+h1.entry-title {
+	display: var(--page-title-display);
+}
+
+.elementor-kit-5 e-page-transition {
+	background-color: #FFBC7D;
+}
+
+.site-header {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+@media(max-width:1024px) {
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 1024px;
+	}
+
+	.e-con {
+		--container-max-width: 1024px;
+	}
+}
+
+@media(max-width:767px) {
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 767px;
+	}
+
+	.e-con {
+		--container-max-width: 767px;
+	}
+}
+
+/* Start Custom Fonts CSS */
+@font-face {
+	font-family: 'My Font';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../../2023/06/GulfsDisplay-Condensed.ttf') format('truetype');
+}
+
+/* End Custom Fonts CSS */
